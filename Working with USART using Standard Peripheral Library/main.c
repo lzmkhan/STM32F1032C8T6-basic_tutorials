@@ -67,7 +67,7 @@ int main(void)
 	// Execute the initialization logic
 	initUsart();
 
-	// Always good idea to define constants as macros
+	// Always good idea to define constant literals as macros
 	#define LENGTH 128
 
 	// Character array to store 127 characters that is inputed in the putty terminal
